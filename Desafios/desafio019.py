@@ -1,0 +1,12 @@
+from random import randint
+a = input('Nome do 1° aluno: ')
+b = input('Nome do 2° aluno: ')
+c = input('Nome do 3° aluno: ')
+d = input('Nome do 4° aluno: ')
+esc = randint(1, 4)
+print('=' * 12)
+print(f'Aluno 1: {a}')
+print(f'Aluno 2: {b}')
+print(f'Aludo 3: {c}')
+print(f'Aludo 4: {d}')
+print(f'Escolhido: aluno {esc}')
