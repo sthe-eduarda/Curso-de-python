@@ -1,0 +1,10 @@
+op = float(input('Cateto oposto:'))
+ad = float(input('Cateto adjacente:'))
+print(30 * '=')
+print('Primeira fomar de resolução do exercicío: usando matemática prática')
+hi = (co ** 2 + ca ** 2) ** (1/2)
+print(f'A hipotenusa vai medir {hi:.2f}')
+print(30 * "=")
+print('Segunda forma do resolução de exercicío: Usaondo módulos')
+from math import hypot
+print(f'A hipotenusavai medir {hypot(hi)}')
